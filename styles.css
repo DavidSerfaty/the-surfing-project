@@ -1,0 +1,19 @@
+h2 {
+  margin-bottom: 1rem;
+}
+.container {
+  margin: 2rem auto;
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.jumbotron {
+  background-image: url("img/header.jpg");
+  height: 70vh;
+  color: #fff;
+  background-attachment: fixed;
+  background-position: cover center center no-repeat;
+}
