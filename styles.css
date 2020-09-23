@@ -11,9 +11,8 @@ h2 {
 }
 
 .jumbotron {
-  background-image: url("img/header.jpg");
+  background: url("img/header.jpg")center center / cover no-repeat;
   height: 70vh;
   color: #fff;
-  background-attachment: fixed;
-  background-position: cover center center no-repeat;
+  width: 100%;
 }
