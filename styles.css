@@ -1,8 +1,6 @@
 h2 {
-  margin-bottom: 1rem;
-}
-.container {
-  margin: 2rem auto;
+  margin-bottom: 2rem;
+  margin-top: 3rem
 }
 
 .card-img-top {
@@ -11,8 +9,25 @@ h2 {
 }
 
 .jumbotron {
-  background: url("img/header.jpg")center center / cover no-repeat;
+  background-image: url("img/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 70vh;
   color: #fff;
-  width: 100%;
+  padding: 0px;
+}
+.dark-screen{
+  height: 100%;
+  background-color: RGBA(0,0,0,0.5);
+}
+
+.display-4{
+  padding-top: 10%;
+}
+
+@media screen and (max-width: 640px) {
+  .display-4 {
+    padding-top: 50%;
+  }
 }
