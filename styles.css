@@ -25,9 +25,3 @@ h2 {
 .display-4{
   padding-top: 10%;
 }
-
-@media screen and (max-width: 640px) {
-  .display-4 {
-    padding-top: 50%;
-  }
-}
